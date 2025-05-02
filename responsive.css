@@ -1,0 +1,106 @@
+@media screen and (min-width: 768px){
+    .header__top{
+        display: flex;
+    }
+    .header__list{
+        float:left;
+    }
+    .header::after{
+        content:'';
+        display: block;
+        clear:both;
+    }
+    .header__top_right{
+        margin-left:40%;
+    }
+    .header__links{
+        padding:25px 15px;
+    }
+}
+@media screen and (min-width: 992px){
+    .header__top_right{
+        margin-left:60%;
+    }
+    .header__bottom__title{
+        width:40%;
+    }
+    .header__bottom__para{
+        width: 50%;
+    }
+    .header__btn{
+        margin-top:50px;
+    }
+}
+@media screen and (min-width: 576px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .about__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      
+}
+@media screen and (min-width: 992px){
+    .grid{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        margin:auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
+    }
+    .blog__left{
+        height: 500px;
+    }
+}
+@media screen and (min-width: 768px){
+    .about__right{
+        width:80%;
+        padding-top:30px;
+        
+    }
+    .discount__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        width:95%;
+        margin:auto;
+    }
+    .discount__two{
+        margin: 0;
+    }
+    .blog__container{
+        width:90%;
+        margin:auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .testimonial-para{
+        text-align: center;
+        padding:0px 20px;
+    }
+    .footer__container{
+        display: flex;
+        width:80%;
+        margin:auto;
+    }
+    .footer__top{
+        width:60%;
+    }
+    .footer__bottom{
+        width:40%;
+    }
+    .footer__bottom{
+        margin-top:0px;
+        display: inherit;
+        justify-content:left;
+        
+    }
+}
